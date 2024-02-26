@@ -5,8 +5,13 @@ export default async function Home() {
     await connectDB()
     
     return (
-        <main>
-
+        <main className = {`
+            w-screen min-h-screen
+        `}>
+            <h1>
+                MQTT Dashboard
+            </h1>
+            
         </main>
     )
 }
